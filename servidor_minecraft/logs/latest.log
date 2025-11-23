@@ -1,0 +1,119 @@
+[19:01:43] [main/INFO]: Loading Minecraft 1.21.10 with Fabric Loader 0.17.2
+[19:01:43] [main/INFO]: Loading 13 mods:
+	- distanthorizons 2.3.6-b
+	   |-- fabric-api-base 1.0.0+14b92d896f
+	   |-- fabric-command-api-v2 2.4.0+c0ab2d5d6f
+	   |-- fabric-entity-events-v1 2.1.13+fde3702c6f
+	   |-- fabric-events-interaction-v0 4.0.35+5ba217126f
+	   |-- fabric-key-binding-api-v1 1.1.1+b3ba9c486f
+	   |-- fabric-lifecycle-events-v1 2.6.9+33df5e6e6f
+	   |-- fabric-networking-api-v1 5.0.13+d269470c6f
+	   |-- fabric-rendering-v1 16.0.2+91152d886f
+	   |-- fabric-resource-loader-v0 3.2.3+3388a3b26f
+	   |-- fabric-resource-loader-v1 1.0.3+8cc86c156f
+	   \-- fabric-screen-api-v1 3.1.0+9c82a7986f
+	- fabricloader 0.17.2
+	   \-- mixinextras 0.5.0
+	- java 21
+	- minecraft 1.21.10
+[19:01:43] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/AmarillosMC/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[19:01:43] [main/INFO]: Compatibility level set to JAVA_21
+[19:01:43] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[19:01:49] [main/INFO]: Initializing Distant Horizons server, firing DhApiBeforeDhInitEvent event...
+[19:01:49] [main/INFO]: Distant Horizons, Version: 2.3.6-b
+[19:01:49] [main/INFO]: Registering Fabric Server Events
+[19:01:49] [main/INFO]: Distant Horizons server Initialized, adding event subscribers...
+[19:01:49] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[19:01:50] [main/INFO]: No existing world data, creating new world
+[19:01:51] [main/INFO]: Loaded 1461 recipes
+[19:01:51] [main/INFO]: Loaded 1574 advancements
+[19:01:51] [Server thread/INFO]: Initialising config for [DistantHorizons]
+[19:01:51] [Server thread/INFO]: [DistantHorizons] Config initialised
+[19:01:51] [Server thread/INFO]: Running Delayed setup...
+[19:01:51] [Server thread/INFO]: Delayed setup complete, firing DhApiAfterDhInitEvent event...
+[19:01:51] [Server thread/INFO]: Checking for Distant Horizons update
+[19:01:52] [Server thread/INFO]: Distant Horizons already up to date.
+[19:01:52] [Server thread/INFO]: Distant Horizons server Initialized at 
+[19:01:52] [Server thread/INFO]: Started [DhServerWorld] of type [SERVER_ONLY].
+[19:01:52] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[19:01:52] [Server thread/INFO]: Loading properties
+[19:01:52] [Server thread/INFO]: Default game type: SURVIVAL
+[19:01:52] [Server thread/INFO]: Generating keypair
+[19:01:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:01:52] [Server thread/INFO]: Using epoll channel type
+[19:01:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:01:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:01:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:01:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:01:52] [Server thread/INFO]: Preparing level "world"
+[19:01:52] [Server thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[19:01:52] [Server thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[19:01:52] [Server thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[19:01:52] [Server thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[19:01:52] [Server thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[19:01:52] [Server thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[19:01:52] [Server thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[19:01:52] [Server thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[19:01:52] [Server thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[19:01:52] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:overworld]-[./world/data]...
+[19:01:52] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[19:01:52] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}] at [[LocalSaveStructure@(./world/data)]].
+[19:01:52] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[19:01:52] [Server thread/INFO]: Selecting global world spawn...
+[19:01:54] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: BALANCED
+[19:01:54] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: MEDIUM
+[19:01:54] [DH-ApplyConfigPresetTimer/INFO]: preset active: BALANCED
+[19:01:54] [DH-ApplyConfigPresetTimer/INFO]: preset active: MEDIUM
+[19:01:57] [Server thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
+[19:01:57] [Server thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
+[19:01:57] [Server thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
+[19:01:57] [Server thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
+[19:01:57] [Server thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
+[19:01:57] [Server thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
+[19:01:57] [Server thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
+[19:01:57] [Server thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
+[19:01:57] [Server thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
+[19:01:57] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_end]-[./world/DIM1/data]...
+[19:01:57] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[19:01:57] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[19:01:57] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}] at [[LocalSaveStructure@(./world/data;./world/DIM1/data)]].
+[19:01:57] [Server thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
+[19:01:57] [Server thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
+[19:01:57] [Server thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
+[19:01:57] [Server thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
+[19:01:57] [Server thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
+[19:01:57] [Server thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
+[19:01:57] [Server thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
+[19:01:57] [Server thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
+[19:01:57] [Server thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
+[19:01:57] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_nether]-[./world/DIM-1/data]...
+[19:01:57] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[19:01:57] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[19:01:57] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}] at [[LocalSaveStructure@(./world/data;./world/DIM1/data;./world/DIM-1/data)]].
+[19:01:57] [Server thread/INFO]: Loading 0 persistent chunks...
+[19:01:57] [Server thread/INFO]: Preparing spawn area: 100%
+[19:01:57] [Server thread/INFO]: Time elapsed: 4890 ms
+[19:01:57] [Server thread/INFO]: Done (5.426s)! For help, type "help"
+[19:01:57] [Server thread/INFO]: DH TerraFirmaCraft detection: false
+[19:01:57] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[19:01:57] [Server thread/INFO]: Batch Chunk Generator initialized
+[19:01:57] [Server thread/INFO]: Creating world gen queue
+[19:01:57] [Server thread/INFO]: Created world gen queue
+[19:01:57] [Server thread/INFO]: Set world gen queue for level [minecraft:overworld].
+[19:01:57] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[19:01:57] [Server thread/INFO]: Batch Chunk Generator initialized
+[19:01:57] [Server thread/INFO]: Creating world gen queue
+[19:01:57] [Server thread/INFO]: Created world gen queue
+[19:01:57] [Server thread/INFO]: Set world gen queue for level [minecraft:the_end].
+[19:01:57] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[19:01:57] [Server thread/INFO]: Batch Chunk Generator initialized
+[19:01:57] [Server thread/INFO]: Creating world gen queue
+[19:01:57] [Server thread/INFO]: Created world gen queue
+[19:01:57] [Server thread/INFO]: Set world gen queue for level [minecraft:the_nether].
+[19:02:57] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[19:10:07] [Server thread/INFO]: BusterBlade01[/127.71.214.10:48521] logged in with entity id 19 at (-5.5, 80.0, -8.5)
+[19:10:07] [Server thread/INFO]: Player [BusterBlade01] joined.
+[19:10:07] [Server thread/INFO]: BusterBlade01 joined the game
+[19:10:24] [Server thread/INFO]: Made BusterBlade01 a server operator
+[19:10:32] [Server thread/INFO]: [BusterBlade01: Set own game mode to Creative Mode]
+[19:11:37] [DH-World Gen Thread[0]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
